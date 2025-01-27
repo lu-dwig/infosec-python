@@ -5,6 +5,8 @@ import socket
 #Creating the socket object
 serversocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
+#The host should be a string ' 127.0.0.1 '
+#host = "ip of the machine running / virtual machine"
 host = socket.gethostname() #Host is the server IP
 port = 444 #Port to listen on 
 
